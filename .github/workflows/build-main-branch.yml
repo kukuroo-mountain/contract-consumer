@@ -2,7 +2,7 @@ name: Build the main branch
 on:
   push:
     branches:
-      - ci/setup-build-main-branch
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
